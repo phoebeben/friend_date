@@ -78,3 +78,6 @@ gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem "simple_calendar", "~> 2.4"
 gem 'sassc'
+
+#devise
+gem "devise"
