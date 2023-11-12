@@ -15,3 +15,7 @@
  *= require fullcalendar
  *= require simple_calendar
  */
+
+ .user_name {
+  text-align: right;
+ }
