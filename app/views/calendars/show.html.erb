@@ -1,0 +1,12 @@
+<h1><%= @calendar.name %> calendar</h1>
+
+
+<%= month_calendar events: @days do |date, days| %>
+  <%= date %>
+  <% days.each do |day| %>
+    <div>
+     <%= day.user.first_name%>
+     <%= day.available? %>
+    </div>
+  <% end %>
+<% end %>

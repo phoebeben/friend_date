@@ -81,3 +81,6 @@ gem 'sassc'
 
 #devise
 gem "devise"
+
+# simple form
+gem 'simple_form'

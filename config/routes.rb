@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   get '/', to: 'pages#home', as: 'root'
   devise_for :users
+  resources :calendars
 end
